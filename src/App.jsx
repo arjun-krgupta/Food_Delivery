@@ -59,7 +59,7 @@ useEffect(() => {
         {/* Register Route */}
         <Route
           path="/register"
-          element={isAuthenticated ? <Register />:<Navigate to="/login" />}
+          element= {<Register />}
         />
 
         {/* Private Routes: Only accessible if authenticated */}

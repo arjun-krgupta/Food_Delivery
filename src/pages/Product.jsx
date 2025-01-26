@@ -1,16 +1,26 @@
 import React from "react";
+import pizza from '../assets/pizza.jpg'
+import burger from '../assets/burger.jpg'
+import pasta from '../assets/pasta.jpg'
+import sushi from '../assets/sushi.jpg'
+import steak from '../assets/steak.jpg'
+import salid from '../assets/salid.jpg'
+import icecream from '../assets/icecream.jpg'
+import sandwich from '../assets/sandwich.jpg'
+import tacos from '../assets/tacos.jpg'
+import pencakes from '../assets/pencakes.jpg'
 
 const foodItems = [
-  { id: 1, name: "Pizza", image: "https://t3.ftcdn.net/jpg/00/27/57/96/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD.jpg", price: 12 },
-  { id: 2, name: "Burger", image: "https://media.istockphoto.com/id/182744943/photo/burger.jpg?s=612x612&w=0&k=20&c=pi20IieXf8UNk6SeJy-cHxubaVD7L5Rnw2i0Qo8vNyM=", price: 8 },
-  { id: 3, name: "Pasta", image: "https://media.istockphoto.com/id/155433174/photo/bolognese-pens.jpg?s=612x612&w=0&k=20&c=A_TBqOAzcOkKbeVv8qSDs0bukfAedhkA458JEFolo_M=", price: 10 },
-  { id: 4, name: "Sushi", image: "https://www.shutterstock.com/image-photo/sushi-platter-vibrant-fresh-restaurant-260nw-2497859739.jpg", price: 15 },
-  { id: 5, name: "Steak", image: "https://www.shutterstock.com/image-photo/closeup-seared-steak-600nw-2468790433.jpg", price: 20 },
-  { id: 6, name: "Salad", image: "https://cdn.jwplayer.com/v2/media/wGEqBtuf/thumbnails/qSXwlEH3.jpg", price: 7 },
-  { id: 7, name: "Ice Cream", image: "https://cdn.pixabay.com/photo/2024/06/02/17/01/ice-cream-8804687_640.jpg", price: 5 },
-  { id: 8, name: "Sandwich", image: "https://www.livofy.com/health/wp-content/uploads/2021/09/Club-Sandwich-with-Super-Mayo.jpg", price: 6 },
-  { id: 9, name: "Tacos", image: "https://danosseasoning.com/wp-content/uploads/2022/03/Beef-Tacos-1024x767.jpg", price: 9 },
-  { id: 10, name: "Pancakes", image: "https://www.allrecipes.com/thmb/dOTb-yf_t1CXgw91lg69Wvzrl8E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-162760-fluffy-pancakes-DDMFS-beauty-3x4-35d4b54b54464701b32870d4b1646bfe.jpg", price: 8 },
+  { id: 1, name: "Pizza", image: pizza, price: 12 },
+  { id: 2, name: "Burger", image:burger, price: 8 },
+  { id: 3, name: "Pasta", image:pasta, price: 10 },
+  { id: 4, name: "Sushi", image: sushi, price: 15 },
+  { id: 5, name: "Steak", image: steak, price: 20 },
+  { id: 6, name: "Salid", image: salid, price: 7 },
+  { id: 7, name: "Ice Cream", image: icecream, price: 5 },
+  { id: 8, name: "Sandwich", image: sandwich, price: 6 },
+  { id: 9, name: "Tacos", image: tacos, price: 9 },
+  { id: 10, name: "Pancakes", image: pencakes, price: 8 },
 ];
 
 function Product({ cart, setCart, searchTerm  }) {
