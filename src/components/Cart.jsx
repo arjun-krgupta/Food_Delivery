@@ -19,7 +19,7 @@ function Cart({ cart, setCart }) {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-5">
+    <div className="max-w-4xl mx-auto mt-5 overflow-y-auto">
       <h2 className="text-2xl font-semibold mb-4">Your Cart</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty.</p>
